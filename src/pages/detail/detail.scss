@@ -1,0 +1,59 @@
+@import "../../styles/abstracs/variables";
+
+.detail {
+  width: 80%;
+  height: auto;
+  background: $white;
+  display: inline-flex !important;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 -1px 2px 0 rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+
+  img {
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+    padding-top: 45px;
+  }
+
+  .description {
+    position: relative;
+
+
+    div {
+      width: 70%;
+      margin-top: 127px;
+      margin-left: 97px;
+      margin-bottom: 35px;
+    }
+
+    h2 {
+      display: flex;
+    }
+
+    p {
+      text-align: initial;
+    }
+  }
+
+  .detail-right {
+    display: block ruby;
+    padding-top: 5%;
+  
+
+    div {
+      width: 60%;
+      text-align: left;
+   
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+      margin-bottom: 90px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+}
+  }
+}

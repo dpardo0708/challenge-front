@@ -1,0 +1,36 @@
+@import "../../../styles/abstracs/variables";
+
+.search {
+    height: 34px;
+
+  input {
+    padding: 7px 60px 9px 15px;
+    background-color: $white;
+    overflow: auto;
+    display: inline-flex;
+    max-width: 66%;
+    width: 100%;
+  }
+
+  text {
+    color: $grey_dark;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    padding: 6px 6px 6px 35px;
+    font-family: inherit;
+  }
+
+  .search-button {
+    cursor: pointer;
+    background-color: $white;
+    border:0px;
+    background-image: url("../../../images/search.svg");
+    background-position: right 5px center;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    width: 35px;
+    height: 34px;
+    position: absolute;
+  }
+}

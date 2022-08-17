@@ -1,0 +1,52 @@
+@import '../fonts/Roboto.scss';
+@import './../abstracts/_mixins.scss';
+
+body {
+  font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.title {
+
+  &-1 {
+    font-size: 32px;
+  }
+
+  &-2 {
+    font-size: 24px;
+  }
+
+  &-3 {
+    font-size: 18px;
+  }
+
+  &-4 {
+    font-size: 14px;
+  }
+}
+
+.text {
+
+  &-1 {
+    font-size: 32px;
+  }
+
+  &-2 {
+    font-size: 24px;
+  }
+
+  &-3 {
+    font-size: 18px;
+  }
+
+  &-4 {
+    font-size: 14px;
+  }
+
+  &-5 {
+    font-size: 24px;
+  }
+}

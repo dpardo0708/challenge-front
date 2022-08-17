@@ -1,0 +1,22 @@
+@import "../../../styles/abstracs/variables";
+
+.header {
+  background-color: $yellow;
+  height: 46px;
+  padding-top: 10px;
+
+  .logo {
+    background-image: url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.19.1/mercadolibre/logo__small.png");
+    height: 34px;
+    top: 13px;
+    width: 40px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -999px;
+    position: absolute;
+    left: 7%;
+  }
+
+ 
+}

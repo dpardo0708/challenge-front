@@ -1,0 +1,30 @@
+@import "../../../styles/abstracs/variables";
+
+.breadcrumb {
+    padding-top: 33px;
+    margin-left: 5%;
+
+      .breadcrumb-icon {
+        width: 6px;
+        padding: 7px 4px 4px 8px;
+      }
+}
+
+ul {
+    font-weight: 400;
+    line-height: 1.45;
+    margin: 0 0 16px;
+    display: flex;
+  }
+  
+  li {
+    display: inline;
+    box-sizing: border-box;
+    font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto,
+      Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.35;
+    color: $grey-two;
+  }
+

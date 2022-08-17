@@ -1,0 +1,46 @@
+@import "../../styles/abstracs/variables";
+
+.result {
+  cursor: pointer;
+  width: 66%;
+  height: auto;
+  background: $white;
+  display: inline-flex !important;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1),0 -1px 2px 0 rgba(0,0,0,.1);
+  transition: box-shadow .2s ease-in-out,-webkit-box-shadow .2s ease-in-out;
+
+  .image-result {
+    width: 100%;
+
+    img {
+      width:100%;
+      padding: 20px 16px 12px 3px;
+      height: 166px;
+    }
+  }
+
+  .content-result {
+    padding-top: 40px;
+    color: $font;
+
+    span {
+      display: flex;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    h3 {
+      display: flex;
+    }
+  }
+
+  .city-result {
+    font-size: 18px;
+    padding: 77px 0px 0px 215px;
+    display: flex;
+
+    span {
+      display: flex;
+    }
+  }
+}
