@@ -19,6 +19,8 @@ const Result = () => {
 
   const getList = async () => {
     const result = await getItems(param);
+    console.log("🚀 ~ file: result.tsx ~ line 22 ~ getList ~ result", result)
+    
     setList(result.items);
   };
 

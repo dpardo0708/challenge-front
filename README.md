@@ -1,5 +1,7 @@
 #Test
 
+0. Instalar dependencias npm install
+
 Repositorio https://github.com/dpardo0708/challenge-front
 
 1. Clonar proyecto https://github.com/dpardo0708/challenge-front.git
